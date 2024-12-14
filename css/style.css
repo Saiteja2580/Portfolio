@@ -498,6 +498,9 @@ body {
     justify-content: center;
     gap: 2rem;
   }
+  .project {
+    width: 300px;
+  }
 }
 
 /* -----------------contact---------------------- */
