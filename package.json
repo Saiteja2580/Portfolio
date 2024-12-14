@@ -1,9 +1,10 @@
 {
   "name": "portfolio1",
   "version": "1.0.0",
-  "main": "index.js",
+  "default":"index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "keywords": [],
   "author": "Sai Teja",
@@ -12,5 +13,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "parcel": "^2.13.2"
+  }
 }
